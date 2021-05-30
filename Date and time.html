@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	Current time and date:<span id="txt"></span>
+	
+	<script type="text/javascript">
+	   var today=new Date();
+	   var h=today.getHours();
+	   var m=today.getMinutes();
+	   var s=today.getSeconds();
+	   document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+
+	   var now=new Date();
+	  
+	   document.getElementById('txt').innerHTML=now;
+
+
+	</script>
+	
+</head>
+</html>
